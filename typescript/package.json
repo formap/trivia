@@ -28,13 +28,13 @@
   },
   "author": "Felix Blechschmitt",
   "license": "GPL-3.0",
-  "dependencies": {
-    "typescript": "^2.9.2"
-  },
   "devDependencies": {
     "@types/jest": "^28.1.1",
-
     "nyc": "^15.1.0",
-    "ts-node": "^7.0.0"
+    "ts-node": "^7.0.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "ts-jest": "^28.0.4"
   }
 }
