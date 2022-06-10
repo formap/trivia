@@ -30,6 +30,7 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@types/jest": "^28.1.1",
+    "jest-mock-random": "^1.1.1",
     "nyc": "^15.1.0",
     "ts-node": "^7.0.0",
     "typescript": "^4.7.3"
