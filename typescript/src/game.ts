@@ -13,17 +13,16 @@ export class Game {
     private rockQuestions: Array<string> = [];
 
     constructor() {
+        this.createQuestions();
+    }
 
+    public createQuestions(): void {
         for (let i = 0; i < 50; i++) {
             this.popQuestions.push("Pop Question " + i);
             this.scienceQuestions.push("Science Question " + i);
             this.sportsQuestions.push("Sports Question " + i);
-            this.rockQuestions.push(this.createRockQuestion(i));
-          }
-    }
-
-    private createRockQuestion(index: number): string {
-        return "Rock Question " + index;
+            this.rockQuestions.push("Rock Question " + i);
+        }
     }
 
     public add(name: string): boolean {
